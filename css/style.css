@@ -1,0 +1,100 @@
+#content{
+	margin-top: 80px;
+	text-align: center;
+}
+.logo {
+    display: inline;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left:10px;
+    font-family: 'Special Elite';
+    letter-spacing: 3px;
+}
+#dot {
+    color: #000;
+    }
+#begin {
+
+	margin-top: 50px;
+    background-color:#00c6ff;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+ #geektext {
+    border-bottom: 2px solid #00c6ff;
+    padding-bottom: 0px;
+ }
+ .begintext {
+   font-family: 'Julius Sans One', sans-serif;
+   margin-bottom: 10px;
+   
+ }
+ h2{
+    font-family: 'Julius Sans One', sans-serif;
+ }
+.options {
+	margin-top: 20px;
+	margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 20px;
+}
+.quiz{
+	display: none;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    min-width: 25%;
+    background-color: #00c6ff;
+	color: white;
+    padding: 10px 0px;
+	display: block;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #02aadb;
+}
+
+input[type=radio]{
+	margin-right: 10px;
+	cursor: pointer;
+}
+.satisfied {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Verdana', sans-serif;
+}
+.img {
+    width: 50px;
+    height: 50px;
+    margin: 20 auto;
+    text-align: center;
+}
+#first {color: blue;}
+  #second {color: red;}
+  #third {color: green;}
+  #arsenal {color: #00c6ff;}
+  #fifth {color: yellow;}
+  #manutd {color: orange;}
+  #seventh {color: purple;}
+  #eigth {color: violet;}
+#footer{
+	height: 100px;
+}

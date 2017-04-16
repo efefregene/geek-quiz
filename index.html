@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Coming+Soon|Dosis|Inconsolata|Josefin+Sans|Julius+Sans+One|Monoton|Raleway|Special+Elite" rel="stylesheet">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@efefregene" />
+	<meta name="twitter:creator" content="@efefregene" />
+	<meta name="twitter:title" content="How much of a geek are you?">
+	<meta name="twitter:description" content="This is a fun quiz that tries to associate you with a fictional geek character based on your answers.">
+	<meta property="og:url" content="https://efefregene.github.io/geek-quiz" />
+	<meta property="og:title" content="How much of a geek are you?" />
+	<meta property="og:description" content="This is a fun quiz that tries to associate you with a fictional geek character based on your answers." />
+	
+    <title>Geeky</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="row">
+      <div class="large-8 medium-centered columns" id = "content">
+		<div id = "start">
+		
+			<h4 class = "logo">Geek<span id = "dot">.</span>Inc</h4>
+			<h2 class="begintext">How much of a <strong id = "geektext">GEEK</strong> are you?</h2>
+			<img src="assets/img/geek.jpg">
+			<input type="button" id = "begin" value ="Find out!">
+		</div>
+		
+		<div id = "Q1" class = "quiz">
+			<h4 class = "logo">Geek<span id = "dot">.</span>Inc</h4>
+			<h3>What Gender are you?</h3>
+			<div class = "options">
+				<input type ="radio" class = "option" name = "Q1" value = "1" checked="">Male</input><br>
+				<input type ="radio" class = "option" name = "Q1" value = "2">Female</input><br>
+			</div>
+			<input type="button" class="button" id = "next1" value ="Next">
+		</div>
+
+		<div id = "Q2" class = "quiz">
+			<h4 class = "logo">Geek<span id = "dot">.</span>Inc</h4>
+			<h3>How weird are you in general everyday conversations with people?</h3>
+			<div class = "options">
+				<input type ="radio" class = "option" name = "Q2" value = "1" checked>Not weird at all, I easily blend with people from all works of life</input><br>
+				<input type ="radio" class = "option" name = "Q2" value = "2">I shine when the discussion is about science fiction and video games </input><br>
+			</div>
+			<input type="button" class="button" id = "next2" value ="Next">
+		</div>
+		<div id = "Q3" class = "quiz">
+			<h4 class = "logo">Geek<span id = "dot">.</span>Inc</h4>
+			<h3>Do you wear prescription glasses(a.k.a recommended spectacles)?</h3>
+			<div class = "options">
+				<input type ="radio" class = "option" name = "Q3" value = "1" checked>Yes</input><br>
+				<input type ="radio" class = "option" name = "Q3" value = "2">No</input><br>
+			</div>
+			<input type="button" class="button" id = "next3" value ="Next">
+		</div>
+		<div id = "Q4" class = "quiz">
+			<h4 class = "logo">Geek<span id = "dot">.</span>Inc</h4>
+			<h3>Do people of the opposite sex consider you cute and they don't bother to hide it?</h3>
+			<div class = "options">
+				<input type ="radio" class = "option" name = "Q4" value = "1" checked>Yeah, I kind of have a large 'fan' base</input><br>
+				<input type ="radio" class = "option" name = "Q4" value = "2">I will say 50/50 if you look at it from a broad perspective</input><br>
+				<input type ="radio" class = "option" name = "Q4" value = "3">Well, only my parents call me cute</input><br>
+			</div>
+			<input type="button" class="button" id = "next4" value ="Next">
+		</div>
+		<div id = "Q5" class = "quiz">
+			<h4 class = "logo">Geek<span id = "dot">.</span>Inc</h4>
+			<h3 >Will you rather be alone in isolation than be in a room with a bunch of people(especially strangers)?</h3>
+			<div class = "options">
+				<input type ="radio" class = "option" name = "Q5" value = "1" checked>Yes</input><br>
+				<input type ="radio" class = "option" name = "Q5" value = "2">No</input><br>
+			</div>
+			<input type="button" class="button" id = "finish" value ="Finish">
+		</div>
+		<div id = "end" class = "quiz">
+			<h4 class = "logo">Geek<span id = "dot">.</span>Inc</h4>
+			<!-- <h2 class="begintext">Congrats! You're __% <span id = "first">G</span><span id = "second">E</span><span id = "third">E</span><span id = "arsenal">K</span>!</h3>
+			<img src="geeky.jpg" width=150px height="150px"> -->
+			<!-- <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=I%20know%20what%20kind%20of%20geek%20I%20am,%20check%20yours%20now%20on%20https://efefregene.github.io/geek-quiz&amp;hashtags=GeekQuiz&amp;" data-size="large"></a> -->
+		</div><br>
+
+		<div id = "twittershare" class = "quiz">
+		</div>
+
+	</div>
+	<script>
+			window.twttr = (function(d, s, id) {
+	  		var js, fjs = d.getElementsByTagName(s)[0],
+	   		t = window.twttr || {};
+	 		if (d.getElementById(id)) return t;
+	 		js = d.createElement(s);
+	 		js.id = id;
+	 		js.src = "https://platform.twitter.com/widgets.js";
+	  		fjs.parentNode.insertBefore(js, fjs);
+
+	  		t._e = [];
+	  		t.ready = function(f) {
+	  		  t._e.push(f);
+	  		};
+
+  		return t;
+		}(document, "script", "twitter-wjs"));
+	</script>
+
+	<div id = "footer"></div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app2.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
