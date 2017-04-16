@@ -228,6 +228,7 @@ $(document).ready(function(){
 	$.fn.radioOn = function(){
 	    $("#restart").click(function(){
 			$("#end").hide();
+			$("#twittershare").hide();
 			$("#Q1").show("slow");
 	        $("#Q1").fadeIn("slow");
 			$("body").css("background-color","#00c6ff");
