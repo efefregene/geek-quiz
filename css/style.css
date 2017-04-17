@@ -10,10 +10,12 @@
     left:10px;
     font-family: 'Special Elite';
     letter-spacing: 3px;
+	cursor: pointer;
 }
 #dot {
     color: #000;
     }
+	
 #begin {
 
 	margin-top: 50px;
@@ -47,6 +49,12 @@
 	display: none;
 }
 
+.button{
+	float: right;
+}
+.button1{
+	float: left;
+}
 input[type=text] {
     width: 80%;
     padding: 12px 20px;
@@ -58,7 +66,7 @@ input[type=text] {
 }
 
 input[type=button] {
-    min-width: 25%;
+    min-width: 30%;
     background-color: #00c6ff;
 	color: white;
     padding: 10px 0px;
